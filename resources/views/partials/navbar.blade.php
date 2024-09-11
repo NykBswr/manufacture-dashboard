@@ -1,5 +1,5 @@
 <nav class="fixed w-full border-dark bg-white px-12 py-5 shadow-md">
-    <div class="flex max-w-screen-xl flex-wrap items-center justify-between">
+    <div class="flex items-center justify-between">
         <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
             <img src="{{ asset('img/LogoWhite.svg') }}" class="h-[5vh] w-auto" alt="Group Logo" />
         </a>
