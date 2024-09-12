@@ -18,7 +18,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600;700&display=swap');
 
     :root {
-        --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
             Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
             "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
             "Source Han Sans CN", sans-serif;
