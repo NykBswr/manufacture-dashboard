@@ -18,11 +18,11 @@
                 <ul
                     class="md border-primay mt-4 flex flex-col rounded-lg border bg-gray-50 p-4 font-medium rtl:space-x-reverse md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0">
                     <li class="flex items-center">
-                        <a href="#" class="mr-5 block rounded text-dark md:p-0" aria-current="page">
+                        <a href="#" class="mr-3 block rounded text-base text-dark md:p-0" aria-current="page">
                             Welcome, {{ auth()->user()->username }}</a>
                         <button id="dropdownUserAvatarButton" data-dropdown-toggle="dropdownAvatar"
                             class="rounded-full bg-gradient-to-tl from-secondary to-primary p-[0.15rem]" type="button">
-                            <img class="h-[5vh] w-auto" src="{{ asset('img/LogoWhite.svg') }}" alt="Profile Profile">
+                            <img class="h-[5vh] w-auto" src="{{ asset('img/logo.png') }}" alt="Profile Profile">
                         </button>
                     </li>
                 </ul>
@@ -34,7 +34,7 @@
             @endif
             <div id="dropdownAvatar" class="z-10 hidden w-[13vw]">
                 <div class="mr-5 items-center justify-center rounded-md bg-white shadow-md">
-                    <ul class="px-2 py-1" aria-labelledby="dropdownUserAvatarButton">
+                    {{-- <ul class="px-2 py-1" aria-labelledby="dropdownUserAvatarButton">
                         <li
                             class="flex flex-row items-center rounded-md from-secondary to-primary px-2 text-sm text-dark hover:bg-gradient-to-tl hover:text-white">
                             <svg class="h-[1.8vw] w-[1.8vw]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -45,8 +45,8 @@
                             </svg>
                             <a href="#" class="ml-2 block py-2">Settings</a>
                         </li>
-                    </ul>
-                    <div class="mx-2 mt-1 rounded-md border-b border-primary"></div>
+                    </ul> --}}
+                    {{-- <div class="mx-2 mt-1 rounded-md border-b border-primary"></div> --}}
                     <div class="px-2 py-2">
                         <form action="/signout" method="post"
                             class="rounded-md px-2 text-sm text-dark hover:bg-gradient-to-tl hover:from-secondary hover:to-primary hover:text-white">

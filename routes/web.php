@@ -17,7 +17,7 @@ use App\Http\Controllers\DashboardController;
 |
 */
 
-// LOGIN
+// Profle Kelompok
 Route::get('/', function () {
 return view('profile-kelompok.main');
 });
@@ -25,6 +25,7 @@ Route::get('/profileKelompok', function () {
 return view('profile-kelompok.main');
 });
 
+// LOGIN
 Route::get('/signin', [LoginController::class, 'index'])->name('signin')->middleware('guest');
 Route::post('/signin', [LoginController::class, 'authenticate']);
 Route::post('/signout', [LoginController::class, 'signout'])->name('signout');
